@@ -49,7 +49,7 @@
                                 <td>{{ $product->weigth }}</td>
                                 <td>{{ $product->nama_kategori }}</td>
                                 <td>{{ $product->stok }}</td>
-                                <td><img src="{{ asset('storage/'.$product->image) }}" alt="" ></td>
+                                <td><img src="{{ asset('public/'.$product->image) }}" alt="" ></td>
                                 <td align="center">
                                 <div class="btn-group" role="group" aria-label="Basic example">
                                   <a href="{{ route('admin.product.edit',['id'=>$product->id]) }}" class="btn btn-warning btn-sm">

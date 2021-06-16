@@ -1,6 +1,6 @@
 @extends('user.app')
 @section('content')
-<div class="site-blocks-cover" style="background-image: url({{ asset('storage/images/pulauseribu.jpg') }});" data-aos="fade">
+<div class="site-blocks-cover" style="background-image: url({{ asset('public/images/pulauseribu.jpg') }});" data-aos="fade">
     <div class="container">
     <div class="row align-items-start align-items-md-center justify-content-end">
         <div class="col-md-5 text-center text-md-left pt-5 pt-md-0">
@@ -67,7 +67,7 @@
             <div class="block-4 text-center">
                 <a href="{{ route('user.produk.detail',['id' =>  $produk->id]) }}">
                 <figure class="block-4-image">
-                <img src="{{ asset('storage/'.$produk->image) }}" alt="Image placeholder" class="img-fluid" width="100%" style="height:300px">
+                <img src="{{ asset('public/'.$produk->image) }}" alt="Image placeholder" class="img-fluid" width="100%" style="height:300px">
                 </figure>
                 </a>
                 <div class="block-4-text p-4">
@@ -103,7 +103,7 @@
             <div class="block-4 text-center">
                 <a href="{{ route('user.produk.detail',['id' =>  $produk->id]) }}">
                 <figure class="block-4-image">
-                <img src="{{ asset('storage/'.$produk->image) }}" alt="Image placeholder" class="img-fluid" width="100%" style="height:300px">
+                <img src="{{ asset('public/'.$produk->image) }}" alt="Image placeholder" class="img-fluid" width="100%" style="height:300px">
                 </figure>
                 </a>
                 <div class="block-4-text p-4">

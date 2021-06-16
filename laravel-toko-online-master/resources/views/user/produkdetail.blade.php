@@ -12,9 +12,9 @@
     <div class="container">
     <div class="row">
         <div class="col-md-6">
-        <img src="{{ asset('storage/'.$produk->image) }}" alt="Image" class="img-fluid">
+        <img src="{{ asset('public/'.$produk->image) }}" alt="Image" class="img-fluid">
         </div>
-     <!--    <p><img src="{{ asset('storage/'.$produk->image) }}" alt="Image" class="img-fluid"></p> -->
+     <!--    <p><img src="{{ asset('public/'.$produk->image) }}" alt="Image" class="img-fluid"></p> -->
         <!-- </div> -->
         <div class="col-md-6">
         <h2 class="text-black">{{ $produk->name }}</h2>

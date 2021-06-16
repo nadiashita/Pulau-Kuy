@@ -148,7 +148,7 @@
                         <tbody>
                             @foreach($detail as $o)
                             <tr>
-                                <td><img src="{{ asset('storage/'.$o->image) }}" alt="" srcset="" width="50"></td>
+                                <td><img src="{{ asset('public/'.$o->image) }}" alt="" srcset="" width="50"></td>
                                 <td>{{ $o->nama_produk }}</td>
                                 <td>{{ $o->qty }}</td>
                                 <td>{{ $o->qty * $o->price }}</td>
