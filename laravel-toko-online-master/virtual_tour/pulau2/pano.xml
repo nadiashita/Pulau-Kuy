@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node1" appversion="6.1.9" apprev="17983">
+  <panorama id="node1">
+    <input levelbias="0.400" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1440" overlap="1" width="1440" levelingroll="0" leveltilesize="510" levelbiashidpi="1.000" levelingpitch="0">
+      <level height="1440" preload="0" width="1440" predecode="0"/>
+      <level height="720" preload="0" width="720" predecode="0"/>
+      <level height="360" preload="1" width="360" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start pan="0" tilt="0" fov="70" projection="4"/>
+      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fovfisheye="360" pan="360" scaletofit="1" tilt="90" fov="120" fovstereographic="270"/>
+    </view>
+    <userdata tags="Pulau 2" author="" description="" info="" comment="" longitude="" title="DCIM\100GOPRO\GS__0817.JPG" nodeid="node1" source="" heading="0" latitude="" datetime="26/05/2021 10:45" copyright="" customnodeid=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label borderalpha="1" textcolor="0x000000" height="20" bordercolor="0x000000" backgroundalpha="1" textalpha="1" enabled="1" border="1" borderradius="1" width="180" background="1" backgroundcolor="0xffffff" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
+      <hotspot pan="-312.95" target="162.2/-12.5/70.0" description="" tilt="-7.41" title="" url="{node3}" id="Point01" skinid="ht_node"/>
+      <hotspot pan="-336.89" target="139.3/0.9/48.9" description="" tilt="-16.94" title="" url="{node2}" id="Point02" skinid="ht_node"/>
+    </hotspots>
+    <media/>
+    <transition softedge="0" blendtime="1" zoomfov="20" zoomoutpause="1" enabled="1" zoomin="0" type="crossdissolve" zoomspeed="2" blendcolor="0x000000" zoomout="0"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control lockedwheel="0" hideabout="0" lockedkeyboardzoom="0" speedwheel="1" contextfullscreen="1" dblclickfullscreen="0" simulatemass="1" rubberband="0" contextprojections="0" lockedmouse="0" sensitivity="8" lockedkeyboard="0" invertcontrol="1" invertwheel="0"/>
+  </panorama>
+  <panorama id="node2">
+    <input levelbias="0.400" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1440" overlap="1" width="1440" levelingroll="0" leveltilesize="510" levelbiashidpi="1.000" levelingpitch="0">
+      <level height="1440" preload="0" width="1440" predecode="0"/>
+      <level height="720" preload="0" width="720" predecode="0"/>
+      <level height="360" preload="1" width="360" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start pan="0" tilt="0" fov="70" projection="4"/>
+      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fovfisheye="360" pan="360" scaletofit="1" tilt="90" fov="120" fovstereographic="270"/>
+    </view>
+    <userdata tags="Pulau 2" author="" description="" info="" comment="" longitude="" title="DCIM\100GOPRO\GS__0819.JPG" nodeid="node2" source="" heading="0" latitude="" datetime="26/05/2021 10:45" copyright="" customnodeid=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label borderalpha="1" textcolor="0x000000" height="20" bordercolor="0x000000" backgroundalpha="1" textalpha="1" enabled="1" border="1" borderradius="1" width="180" background="1" backgroundcolor="0xffffff" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
+      <hotspot pan="-39.52" target="62.8/-6.6/70.0" description="" tilt="-7.72" title="" url="{node1}" id="Point01" skinid="ht_node"/>
+      <hotspot pan="-148.64" target="-171.6/-2.1/70.0" description="" tilt="-6.43" title="" url="{node3}" id="Point02" skinid="ht_node"/>
+      <hotspot pan="-282" target="-148.3/-11.5/70.0" description="" tilt="-2.98" title="" url="{node5}" id="Point03" skinid="ht_node"/>
+    </hotspots>
+    <media/>
+    <transition softedge="0" blendtime="1" zoomfov="20" zoomoutpause="1" enabled="1" zoomin="0" type="crossdissolve" zoomspeed="2" blendcolor="0x000000" zoomout="0"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control lockedwheel="0" hideabout="0" lockedkeyboardzoom="0" speedwheel="1" contextfullscreen="1" dblclickfullscreen="0" simulatemass="1" rubberband="0" contextprojections="0" lockedmouse="0" sensitivity="8" lockedkeyboard="0" invertcontrol="1" invertwheel="0"/>
+  </panorama>
+  <panorama id="node3">
+    <input levelbias="0.400" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1440" overlap="1" width="1440" levelingroll="0" leveltilesize="510" levelbiashidpi="1.000" levelingpitch="0">
+      <level height="1440" preload="0" width="1440" predecode="0"/>
+      <level height="720" preload="0" width="720" predecode="0"/>
+      <level height="360" preload="1" width="360" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start pan="0" tilt="0" fov="70" projection="4"/>
+      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fovfisheye="360" pan="360" scaletofit="1" tilt="90" fov="120" fovstereographic="270"/>
+    </view>
+    <userdata tags="Pulau 2" author="" description="" info="" comment="" longitude="" title="DCIM\100GOPRO\GS__0820.JPG" nodeid="node3" source="" heading="0" latitude="" datetime="26/05/2021 10:46" copyright="" customnodeid=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label borderalpha="1" textcolor="0x000000" height="20" bordercolor="0x000000" backgroundalpha="1" textalpha="1" enabled="1" border="1" borderradius="1" width="180" background="1" backgroundcolor="0xffffff" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
+      <hotspot pan="-349.12" target="62.8/-12.1/70.0" description="" tilt="-10.67" title="" url="{node1}" id="Point01" skinid="ht_node"/>
+      <hotspot pan="-256.17" target="-165.8/-6.7/70.0" description="" tilt="-1.36" title="" url="{node4}" id="Point02" skinid="ht_node"/>
+      <hotspot pan="-297.07" target="-147.4/-16.1/70.0" description="" tilt="-5.02" title="" url="{node5}" id="Point03" skinid="ht_node"/>
+    </hotspots>
+    <media/>
+    <transition softedge="0" blendtime="1" zoomfov="20" zoomoutpause="1" enabled="1" zoomin="0" type="crossdissolve" zoomspeed="2" blendcolor="0x000000" zoomout="0"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control lockedwheel="0" hideabout="0" lockedkeyboardzoom="0" speedwheel="1" contextfullscreen="1" dblclickfullscreen="0" simulatemass="1" rubberband="0" contextprojections="0" lockedmouse="0" sensitivity="8" lockedkeyboard="0" invertcontrol="1" invertwheel="0"/>
+  </panorama>
+  <panorama id="node4">
+    <input levelbias="0.400" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1440" overlap="1" width="1440" levelingroll="0" leveltilesize="510" levelbiashidpi="1.000" levelingpitch="0">
+      <level height="1440" preload="0" width="1440" predecode="0"/>
+      <level height="720" preload="0" width="720" predecode="0"/>
+      <level height="360" preload="1" width="360" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start pan="0" tilt="0" fov="70" projection="4"/>
+      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fovfisheye="360" pan="360" scaletofit="1" tilt="90" fov="120" fovstereographic="270"/>
+    </view>
+    <userdata tags="Pulau 2" author="" description="" info="" comment="" longitude="" title="DCIM\100GOPRO\GS__0821.JPG" nodeid="node4" source="" heading="0" latitude="" datetime="26/05/2021 11:54" copyright="" customnodeid=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label borderalpha="1" textcolor="0x000000" height="20" bordercolor="0x000000" backgroundalpha="1" textalpha="1" enabled="1" border="1" borderradius="1" width="180" background="1" backgroundcolor="0xffffff" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
+      <hotspot pan="-323.21" target="-173.9/-7.6/70.0" description="" tilt="-8.91" title="" url="{node3}" id="Point01" skinid="ht_node"/>
+    </hotspots>
+    <media/>
+    <transition softedge="0" blendtime="1" zoomfov="20" zoomoutpause="1" enabled="1" zoomin="0" type="crossdissolve" zoomspeed="2" blendcolor="0x000000" zoomout="0"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control lockedwheel="0" hideabout="0" lockedkeyboardzoom="0" speedwheel="1" contextfullscreen="1" dblclickfullscreen="0" simulatemass="1" rubberband="0" contextprojections="0" lockedmouse="0" sensitivity="8" lockedkeyboard="0" invertcontrol="1" invertwheel="0"/>
+  </panorama>
+  <panorama id="node5">
+    <input levelbias="0.400" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1440" overlap="1" width="1440" levelingroll="0" leveltilesize="510" levelbiashidpi="1.000" levelingpitch="0">
+      <level height="1440" preload="0" width="1440" predecode="0"/>
+      <level height="720" preload="0" width="720" predecode="0"/>
+      <level height="360" preload="1" width="360" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start pan="0" tilt="0" fov="70" projection="4"/>
+      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fovfisheye="360" pan="360" scaletofit="1" tilt="90" fov="120" fovstereographic="270"/>
+    </view>
+    <userdata tags="Pulau 2" author="" description="" info="" comment="" longitude="" title="DCIM\100GOPRO\GS__0823.JPG" nodeid="node5" source="" heading="0" latitude="" datetime="26/05/2021 11:55" copyright="" customnodeid=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label borderalpha="1" textcolor="0x000000" height="20" bordercolor="0x000000" backgroundalpha="1" textalpha="1" enabled="1" border="1" borderradius="1" width="180" background="1" backgroundcolor="0xffffff" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
+      <hotspot pan="-6.44" target="66.8/-4.3/70.0" description="" tilt="-8.42" title="" url="{node1}" id="Point01" skinid="ht_node"/>
+      <hotspot pan="-36.99" target="-179.5/-6.8/70.0" description="" tilt="-8.09" title="" url="{node3}" id="Point02" skinid="ht_node"/>
+      <hotspot pan="-148.41" target="-15.3/-5.6/94.8" description="" tilt="-0.25" title="" url="{node6}" id="Point03" skinid="ht_node"/>
+    </hotspots>
+    <media/>
+    <transition softedge="0" blendtime="1" zoomfov="20" zoomoutpause="1" enabled="1" zoomin="0" type="crossdissolve" zoomspeed="2" blendcolor="0x000000" zoomout="0"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control lockedwheel="0" hideabout="0" lockedkeyboardzoom="0" speedwheel="1" contextfullscreen="1" dblclickfullscreen="0" simulatemass="1" rubberband="0" contextprojections="0" lockedmouse="0" sensitivity="8" lockedkeyboard="0" invertcontrol="1" invertwheel="0"/>
+  </panorama>
+  <panorama id="node6">
+    <input levelbias="0.400" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1440" overlap="1" width="1440" levelingroll="0" leveltilesize="510" levelbiashidpi="1.000" levelingpitch="0">
+      <level height="1440" preload="0" width="1440" predecode="0"/>
+      <level height="720" preload="0" width="720" predecode="0"/>
+      <level height="360" preload="1" width="360" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start pan="0" tilt="0" fov="70" projection="4"/>
+      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fovfisheye="360" pan="360" scaletofit="1" tilt="90" fov="120" fovstereographic="270"/>
+    </view>
+    <userdata tags="Pulau 2" author="" description="" info="" comment="" longitude="" title="DCIM\100GOPRO\GS__0824.JPG" nodeid="node6" source="" heading="0" latitude="" datetime="26/05/2021 11:56" copyright="" customnodeid=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label borderalpha="1" textcolor="0x000000" height="20" bordercolor="0x000000" backgroundalpha="1" textalpha="1" enabled="1" border="1" borderradius="1" width="180" background="1" backgroundcolor="0xffffff" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
+      <hotspot pan="-347.85" target="-4.9/-51.1/70.0" description="" tilt="-3.83" title="" url="{node7}" id="Point01" skinid="ht_node"/>
+      <hotspot pan="-281.62" target="-172.4/-8.1/70.0" description="" tilt="-3.26" title="" url="{node10}" id="Point02" skinid="ht_node"/>
+    </hotspots>
+    <media/>
+    <transition softedge="0" blendtime="1" zoomfov="20" zoomoutpause="1" enabled="1" zoomin="0" type="crossdissolve" zoomspeed="2" blendcolor="0x000000" zoomout="0"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control lockedwheel="0" hideabout="0" lockedkeyboardzoom="0" speedwheel="1" contextfullscreen="1" dblclickfullscreen="0" simulatemass="1" rubberband="0" contextprojections="0" lockedmouse="0" sensitivity="8" lockedkeyboard="0" invertcontrol="1" invertwheel="0"/>
+  </panorama>
+  <panorama id="node10">
+    <input levelbias="0.400" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1440" overlap="1" width="1440" levelingroll="0" leveltilesize="510" levelbiashidpi="1.000" levelingpitch="0">
+      <level height="1440" preload="0" width="1440" predecode="0"/>
+      <level height="720" preload="0" width="720" predecode="0"/>
+      <level height="360" preload="1" width="360" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start pan="0" tilt="0" fov="70" projection="4"/>
+      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fovfisheye="360" pan="360" scaletofit="1" tilt="90" fov="120" fovstereographic="270"/>
+    </view>
+    <userdata tags="Pulau 2" author="" description="" info="" comment="" longitude="" title="DCIM\100GOPRO\GS__0830.JPG" nodeid="node10" source="" heading="0" latitude="" datetime="26/05/2021 12:00" copyright="" customnodeid=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label borderalpha="1" textcolor="0x000000" height="20" bordercolor="0x000000" backgroundalpha="1" textalpha="1" enabled="1" border="1" borderradius="1" width="180" background="1" backgroundcolor="0xffffff" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
+      <hotspot pan="-174.82" target="-5.9/-8.4/70.0" description="" tilt="-0.28" title="" url="{node6}" id="Point01" skinid="ht_node"/>
+      <hotspot pan="-82.5" target="-150.2/-18.9/70.0" description="" tilt="-2.79" title="" url="{node12}" id="Point02" skinid="ht_node"/>
+    </hotspots>
+    <media/>
+    <transition softedge="0" blendtime="1" zoomfov="20" zoomoutpause="1" enabled="1" zoomin="0" type="crossdissolve" zoomspeed="2" blendcolor="0x000000" zoomout="0"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control lockedwheel="0" hideabout="0" lockedkeyboardzoom="0" speedwheel="1" contextfullscreen="1" dblclickfullscreen="0" simulatemass="1" rubberband="0" contextprojections="0" lockedmouse="0" sensitivity="8" lockedkeyboard="0" invertcontrol="1" invertwheel="0"/>
+  </panorama>
+  <panorama id="node12">
+    <input levelbias="0.400" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1440" overlap="1" width="1440" levelingroll="0" leveltilesize="510" levelbiashidpi="1.000" levelingpitch="0">
+      <level height="1440" preload="0" width="1440" predecode="0"/>
+      <level height="720" preload="0" width="720" predecode="0"/>
+      <level height="360" preload="1" width="360" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start pan="0" tilt="0" fov="70" projection="4"/>
+      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fovfisheye="360" pan="360" scaletofit="1" tilt="90" fov="120" fovstereographic="270"/>
+    </view>
+    <userdata tags="Pulau 2" author="" description="" info="" comment="" longitude="" title="DCIM\100GOPRO\GS__0832.JPG" nodeid="node12" source="" heading="0" latitude="" datetime="26/05/2021 12:01" copyright="" customnodeid=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label borderalpha="1" textcolor="0x000000" height="20" bordercolor="0x000000" backgroundalpha="1" textalpha="1" enabled="1" border="1" borderradius="1" width="180" background="1" backgroundcolor="0xffffff" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
+      <hotspot pan="-57.86" target="27.7/-36.8/70.0" description="" tilt="-4.15" title="" url="{node14}" id="Point01" skinid="ht_node"/>
+      <hotspot pan="-335.97" target="-176.2/-7.3/70.0" description="" tilt="-12.52" title="" url="{node10}" id="Point02" skinid="ht_node"/>
+    </hotspots>
+    <media/>
+    <transition softedge="0" blendtime="1" zoomfov="20" zoomoutpause="1" enabled="1" zoomin="0" type="crossdissolve" zoomspeed="2" blendcolor="0x000000" zoomout="0"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control lockedwheel="0" hideabout="0" lockedkeyboardzoom="0" speedwheel="1" contextfullscreen="1" dblclickfullscreen="0" simulatemass="1" rubberband="0" contextprojections="0" lockedmouse="0" sensitivity="8" lockedkeyboard="0" invertcontrol="1" invertwheel="0"/>
+  </panorama>
+  <panorama id="node14">
+    <input levelbias="0.400" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1440" overlap="1" width="1440" levelingroll="0" leveltilesize="510" levelbiashidpi="1.000" levelingpitch="0">
+      <level height="1440" preload="0" width="1440" predecode="0"/>
+      <level height="720" preload="0" width="720" predecode="0"/>
+      <level height="360" preload="1" width="360" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start pan="0" tilt="0" fov="70" projection="4"/>
+      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fovfisheye="360" pan="360" scaletofit="1" tilt="90" fov="120" fovstereographic="270"/>
+    </view>
+    <userdata tags="Pulau 2" author="" description="" info="" comment="" longitude="" title="DCIM\100GOPRO\GS__0835.JPG" nodeid="node14" source="" heading="0" latitude="" datetime="26/05/2021 12:02" copyright="" customnodeid=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label borderalpha="1" textcolor="0x000000" height="20" bordercolor="0x000000" backgroundalpha="1" textalpha="1" enabled="1" border="1" borderradius="1" width="180" background="1" backgroundcolor="0xffffff" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
+      <hotspot pan="-144.05" target="27.3/-34.1/70.0" description="" tilt="-1.68" title="" url="{node12}" id="Point01" skinid="ht_node"/>
+    </hotspots>
+    <media/>
+    <transition softedge="0" blendtime="1" zoomfov="20" zoomoutpause="1" enabled="1" zoomin="0" type="crossdissolve" zoomspeed="2" blendcolor="0x000000" zoomout="0"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control lockedwheel="0" hideabout="0" lockedkeyboardzoom="0" speedwheel="1" contextfullscreen="1" dblclickfullscreen="0" simulatemass="1" rubberband="0" contextprojections="0" lockedmouse="0" sensitivity="8" lockedkeyboard="0" invertcontrol="1" invertwheel="0"/>
+  </panorama>
+  <panorama id="node7">
+    <input levelbias="0.400" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1440" overlap="1" width="1440" levelingroll="0" leveltilesize="510" levelbiashidpi="1.000" levelingpitch="0">
+      <level height="1440" preload="0" width="1440" predecode="0"/>
+      <level height="720" preload="0" width="720" predecode="0"/>
+      <level height="360" preload="1" width="360" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start pan="0" tilt="0" fov="70" projection="4"/>
+      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fovfisheye="360" pan="360" scaletofit="1" tilt="90" fov="120" fovstereographic="270"/>
+    </view>
+    <userdata tags="Pulau 2" author="" description="" info="" comment="" longitude="" title="DCIM\100GOPRO\GS__0826.JPG" nodeid="node7" source="" heading="0" latitude="" datetime="26/05/2021 11:56" copyright="" customnodeid=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label borderalpha="1" textcolor="0x000000" height="20" bordercolor="0x000000" backgroundalpha="1" textalpha="1" enabled="1" border="1" borderradius="1" width="180" background="1" backgroundcolor="0xffffff" wordwrap="1"/>
+      <polystyle mode="0" borderalpha="1" handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
+      <hotspot pan="-107" target="-2.8/-12.5/70.0" description="" tilt="-17.21" title="" url="{node6}" id="Point01" skinid="ht_node"/>
+    </hotspots>
+    <media/>
+    <transition softedge="0" blendtime="1" zoomfov="20" zoomoutpause="1" enabled="1" zoomin="0" type="crossdissolve" zoomspeed="2" blendcolor="0x000000" zoomout="0"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control lockedwheel="0" hideabout="0" lockedkeyboardzoom="0" speedwheel="1" contextfullscreen="1" dblclickfullscreen="0" simulatemass="1" rubberband="0" contextprojections="0" lockedmouse="0" sensitivity="8" lockedkeyboard="0" invertcontrol="1" invertwheel="0"/>
+  </panorama>
+  <masternode>
+    <userdata tags="" author="" description="" info="" comment="" longitude="" title="" nodeid="master" source="" heading="0" latitude="" datetime="" copyright="" customnodeid=""/>
+  </masternode>
+</tour>
