@@ -26,7 +26,7 @@
 <div class="bg-light py-3">
     <div class="container">
     <div class="row">
-        <div class="col-md-12 mb-0"><a href="home">Home</a> <span class="mx-2 mb-0">/</span> <strong class="text-black">Peta</strong></div>
+        <div class="col-md-12 mb-0"><a href="home">Home</a> <span class="mx-2 mb-0">/</span> <strong class="text-black">Virtual Tour</strong></div>
     </div>
     </div>
 </div>  
@@ -42,12 +42,12 @@
   
 <div class="border p-4 rounded mb-4">
      <div class="col">
-    <h4 class="card-title">Peta Pulau </h4>
-
-<button class="btn btn-primary" onclick="showPulau1()" >Pulau 1</button>
-<button class="btn btn-primary" onclick="showPulau2()" >Pulau 2</button> 
-<button class="btn btn-primary" onclick="showPulau3()" >Pulau 3</button>
-
+    <h4 class="card-title">Virtual Tour</h4>
+<center>
+  <button class="btn btn-primary" onclick="showPulau1()">Pulau Kelor</button>
+  <button class="btn btn-primary" onclick="showPulau2()">Pulau Onrust</button>
+  <button class="btn btn-primary" onclick="showPulau3()">Pulau Cipir</button>
+</center>
 <iframe class="pulau1 pulau-box" src="http://localhost/pulau1/">
   <p>Your browser does not support iframes.</p>
 </iframe>
