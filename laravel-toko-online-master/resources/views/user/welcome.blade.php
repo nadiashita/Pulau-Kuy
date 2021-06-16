@@ -4,12 +4,12 @@
     <div class="container">
     <div class="row align-items-start align-items-md-center justify-content-end">
         <div class="col-md-5 text-center text-md-left pt-5 pt-md-0">
-        <h1 class="mb-2">Jangan Panik Ayo Piknik</h1>
+        <h1 class="mb-2">Ayo berwisata bersama kami </h1>
         <div class="intro-text text-center text-md-left">
-            <p class="mb-4">LETS JOIN AND ENJOY </p>
+            <!-- <p class="mb-4">Jangan panik ayo piknik </p> -->
             <p>
             
-            <!-- <a href="{{ route('user.produk') }}" class="btn btn-sm btn-primary">Pergi Sekarang</a> -->
+            <a href="{{ route('user.produk') }}" class="btn btn-sm btn-primary">Cek Sekarang > </a>
             </p>
         </div>
         </div>

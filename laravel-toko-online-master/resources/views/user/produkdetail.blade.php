@@ -62,7 +62,7 @@
                   <div class="card-header">
                     <ul class="nav nav-tabs card-header-tabs">
                       <li class="nav-item">
-                        <a class="nav-link active" href="#">Komentar & Rating</a>
+                        <a class="nav-link active" href="#"><h5><b>Komentar & Rating</b></h5></a>
                       </li>
                     </ul>
                   </div>

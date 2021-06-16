@@ -120,7 +120,7 @@
                             <td>:</td>
                             <td>Rp. {{ number_format($order->subtotal + $order->biaya_cod,2,',','.') }}</td>
                         </tr>
-
+                        
                     </table>
                 </div>
                 <div class="col-md-4 text-right">
@@ -130,7 +130,7 @@
                     @endif
                 </div>
                 </div>
-                
+                </br>
                 <div class="row mb-5 yuhu">
                     <div class="col-md-12">
                         <table class="table table-bordered">
