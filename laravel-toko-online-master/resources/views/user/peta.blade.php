@@ -1,6 +1,28 @@
 @extends('user.app')
 @section('content')
-
+<style type="text/css">
+  .pulau-box::before,
+  .pulau-box::after{
+  content: '';
+  clear: both;
+  display: table;
+  }
+  .pulau-box.hide{
+  display: none;
+  }
+  .pulau1{
+    width:100%; 
+    height: 800px;
+  }
+  .pulau2{
+    width:100%; 
+    height: 800px;
+  }
+  .pulau3{
+    width:100%; 
+    height: 800px;
+  }
+</style>
 <div class="bg-light py-3">
     <div class="container">
     <div class="row">
@@ -19,40 +41,55 @@
    <div class="col-md-12">
   
 <div class="border p-4 rounded mb-4">
-	 <div class="col">
+     <div class="col">
     <h4 class="card-title">Peta Pulau </h4>
 
-<div id="map" style="width: 100%; height: 500px;"></div>
+<button class="btn btn-primary" onclick="showPulau1()" >Pulau 1</button>
+<button class="btn btn-primary" onclick="showPulau2()" >Pulau 2</button> 
+<button class="btn btn-primary" onclick="showPulau3()" >Pulau 3</button>
 
-<script >
-    var peta1 = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
-        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
-            '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
-            'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-        id: 'mapbox/streets-v11'
-    });
+<iframe class="pulau1 pulau-box" src="http://localhost/pulau1/">
+  <p>Your browser does not support iframes.</p>
+</iframe>
+<iframe class="pulau2 pulau-box hide" src="http://localhost/pulau2/">
+  <p>Your browser does not support iframes.</p>
+</iframe>
+<iframe class="pulau3 pulau-box hide" src="http://localhost/pulau3/">
+  <p>Your browser does not support iframes.</p>
+</iframe>
 
+<script>
+const pulauBox = document.querySelector(".pulau-box");
+const pulaU1 = document.querySelector(".pulau1");
+const pulaU2 = document.querySelector(".pulau2");
+const pulaU3 = document.querySelector(".pulau3");
 
-
-var map = L.map('map', {
-    center: [-5.7456825,106.6123551],
-    zoom: 17,
-    layers: [peta1]
-});
-
-var baseMaps = {
-    "Grayscale": peta1
-};
-
-L.control.layers(baseMaps, overlayMaps).addTo(map);
-
+function showPulau1(){
+  //menyembunyikan
+  pulaU2.classList.add("hide");
+  pulaU3.classList.add("hide");
+  //menampilkan
+  pulaU1.classList.remove("hide");
+}
+function showPulau2(){
+  //menyembunyikan
+  pulaU1.classList.add("hide");
+  pulaU3.classList.add("hide");
+  //menampilkan
+  pulaU2.classList.remove("hide");
+}
+function showPulau3(){
+  //menyembunyikan
+  pulaU1.classList.add("hide");
+  pulaU2.classList.add("hide");
+  //menampilkan
+  pulaU3.classList.remove("hide");
+}
 </script>
 
-
-
-
 </div>
 </div>
+
 </div>
 </div>
 </div>
