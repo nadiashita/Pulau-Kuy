@@ -12,7 +12,6 @@ class CheckoutController extends Controller
     {
         //ambil session user id
         $id_user = \Auth::user()->id;
-
         //ambil produk apa saja yang akan dibeli user dari table keranjang
         $keranjangs = DB::table('keranjang')
                             ->join('users','users.id','=','keranjang.user_id')
@@ -51,8 +50,6 @@ class CheckoutController extends Controller
         ->select('alamat.*','cities.title as kota','provinces.title as prov')
         ->where('alamat.user_id',$id_user)
         ->first();    
-
-        
         
         //buat kode invoice sesua tanggalbulantahun dan jam
         $data = [
