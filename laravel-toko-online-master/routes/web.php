@@ -21,6 +21,7 @@ Route::get('/produk/cari','user\ProdukController@cari')->name('user.produk.cari'
 Route::get('/kategori/{id}','KategoriController@produkByKategori')->name('user.kategori');
 Route::get('/produk/{id}','user\ProdukController@detail')->name('user.produk.detail');
 Route::get('/peta','user\PetaController@index')->name('peta');
+Route::get('/aboutus','user\aboutusController@index')->name('aboutus');
 
 
 Route::get('/pelanggan',function(){

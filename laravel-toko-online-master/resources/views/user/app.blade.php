@@ -138,6 +138,7 @@
             <li class="{{ Request::path() === 'produk' ? '' : '' }}"><a href="{{ route('user.produk') }}">Paket Wisata</a></li>
             <li class="{{ Request::path() === 'metode_ibcf' ? '' : '' }}"><a href="{{ route('metode_ibcf') }}">METODE iBCF</a></li>
             <li class="{{ Request::path() === 'peta' ? '' : '' }}"><a href="{{ route('peta') }}">Virtual Tour</a></li>
+            <li class="{{ Request::path() === 'aboutus' ? '' : '' }}"><a href="{{ route('aboutus') }}">About Us</a></li>
           </ul>
         </div>
       </nav>
