@@ -43,8 +43,8 @@
                                     </select>
                                 </div>
                                 <div class="form-group">
-                                <label for="exampleInputUsername1">Berat (gram)</label>
-                                <input required type="number" class="form-control" name="weigth">
+                                <label for="exampleInputUsername1">Tanggal</label>
+                                <input required type="date" class="form-control" name="weigth">
                                 </div>
                                 <div class="form-group">
                                 <label for="exampleInputUsername1">Harga</label>
