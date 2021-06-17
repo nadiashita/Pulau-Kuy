@@ -57,7 +57,7 @@
                             <td>:</td>
                             <td  class="p-2">Rp. {{ number_format($order->subtotal,2,',','.') }} ( Sudah Termasuk Ongkir )</td>
                         </tr>
-                        <tr>
+                       <!--  <tr>
                             <td>Biaya Ongkir</td>
                             <td>:</td>
                             <td  class="p-2">Rp. {{ number_format($order->ongkir,2,',','.') }}</td>
@@ -74,7 +74,7 @@
                             <td  class="p-2">{{ $order->no_resi }}</td>
                         </tr>
                         @endif
-                        <tr>
+                        <tr> -->
                             <td>No Hp</td>
                             <td>:</td>
                             <td  class="p-2">{{ $order->no_hp }}</td>

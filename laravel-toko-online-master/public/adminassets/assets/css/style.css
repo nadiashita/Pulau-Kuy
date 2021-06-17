@@ -5727,7 +5727,7 @@ input[type="button"].btn-block {
   text-decoration: none; }
 
 .breadcrumb-item.active {
-  color: #495057; }
+  color: #f8f9fa; }
 
 .pagination {
   display: -webkit-box;
@@ -9700,7 +9700,7 @@ button.bg-dark:focus {
   color: #ffffff !important; }
 
 .text-primary, .list-wrapper .completed .remove {
-  color: #b66dff !important; }
+  color: #189dd0 !important; }
 
 a.text-primary:hover, .list-wrapper .completed a.remove:hover, a.text-primary:focus, .list-wrapper .completed a.remove:focus {
   color: #9021ff !important; }
@@ -10306,7 +10306,7 @@ code {
     margin-bottom: 0; }
 
 .page-title {
-  color: #343a40;
+  color: #f8f9fa;
   font-size: 1.125rem;
   margin-bottom: 0; }
   .page-title .page-title-icon {
@@ -10515,8 +10515,8 @@ code {
     height: 6px; }
 
 .bg-gradient-primary {
-  background: -webkit-gradient(linear, left top, right top, from(#da8cff), to(#9a55ff)) !important;
-  background: linear-gradient(to right, #da8cff, #9a55ff) !important; }
+  background: -webkit-gradient(linear, left top, right top, from(#da8cff), to(#342d5a)) !important;
+  background: linear-gradient(to right, #e4c5cc, #0c263c) !important; }
 
 .bg-gradient-secondary {
   background: -webkit-gradient(linear, left top, right top, from(#e7ebf0), to(#868e96)) !important;
@@ -11643,7 +11643,7 @@ code {
   .breadcrumb .breadcrumb-item {
     font-size: 0.875rem; }
     .breadcrumb .breadcrumb-item.active {
-      color: rgba(52, 58, 64, 0.8); }
+      color:#f8f9fa; }
   .breadcrumb.breadcrumb-custom {
     padding: 0 0;
     border-color: #dbe3e6; }
@@ -12695,14 +12695,14 @@ dl {
         .navbar .navbar-brand-wrapper .navbar-brand.brand-logo-mini img {
           width: calc(70px - 50px);
           max-width: 100%;
-          height: 28px;
+          height:100px;
           margin: auto; }
   .navbar .navbar-menu-wrapper {
     transition: width 0.25s ease;
     -webkit-transition: width 0.25s ease;
     -moz-transition: width 0.25s ease;
     -ms-transition: width 0.25s ease;
-    color: #9c9fa6;
+    color: #212529;
     padding-left: 24px;
     padding-right: 24px;
     width: calc(100% - 260px);
