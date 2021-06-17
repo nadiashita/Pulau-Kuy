@@ -33,7 +33,7 @@
                             <th width="5%">No</th>
                             <th>Nama Produk</th>
                             <th>Harga</th>
-                            <th>Berat</th>
+                            <th>Tanggal</th>
                             <th>Kategori</th>
                             <th>Stok</th>
                             <th>Gambar</th>
