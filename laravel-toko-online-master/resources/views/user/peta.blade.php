@@ -48,13 +48,13 @@
   <button class="btn btn-primary" onclick="showPulau2()">Pulau Onrust</button>
   <button class="btn btn-primary" onclick="showPulau3()">Pulau Cipir</button>
 </center>
-<iframe class="pulau1 pulau-box" src="http://localhost/pulau1/">
+<iframe class="pulau1 pulau-box" src="https://pulaukuy360.site/pulau_kelor/">
   <p>Your browser does not support iframes.</p>
 </iframe>
-<iframe class="pulau2 pulau-box hide" src="http://localhost/pulau2/">
+<iframe class="pulau2 pulau-box hide" src="https://pulaukuy360.site/pulau_onrust/">
   <p>Your browser does not support iframes.</p>
 </iframe>
-<iframe class="pulau3 pulau-box hide" src="http://localhost/pulau3/">
+<iframe class="pulau3 pulau-box hide" src="https://pulaukuy360.site/pulau_cipir/">
   <p>Your browser does not support iframes.</p>
 </iframe>
 
