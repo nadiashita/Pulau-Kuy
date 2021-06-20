@@ -47,7 +47,7 @@
             <div class="col-12 mb-3 mb-md-0 col-md-4 order-1 order-md-2 text-center">
               <div>
                 <a href="home">
-                  <img src="{{ asset('public/images/pulaukuy2.svg') }}" style="height: auto; width: auto; max-width: 200px; max-height: 200px;">
+                  <img src="{{ asset('public/images/pulaukuylogo.png') }}" style="height: auto; width: auto; max-width: 200px; max-height: 200px;">
                 </a>
                 <!-- <a href="home" class="js-logo-clone">Pulau Kuy</a> -->
               </div>
