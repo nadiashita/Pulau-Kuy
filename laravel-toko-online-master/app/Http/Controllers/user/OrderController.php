@@ -104,14 +104,14 @@ class OrderController extends Controller
         $mail = new PHPMailer(true);
         try {
             $mail->isSMTP();
-            $mail->Host = 'in-v3.mailjet.com'; // host
+            $mail->Host = 'mail.pulaukuy360.site'; // host
             $mail->SMTPAuth = true;
-            $mail->Username = '1effcbbde9de9700118622c51d5fedae'; //username
-            $mail->Password = '5a64d6fab0b5201cce94f4c7f8771717'; //password
+            $mail->Username = 'admin@pulaukuy360.site'; //username
+            $mail->Password = '#KuyLah123'; //password
             $mail->SMTPSecure = 'tls';
-            $mail->Port = 587; //smtp port
+            $mail->Port = 465; //smtp port
            
-            $mail->setFrom('pulaukuy@gmail.com', 'Pulau Kuy');
+            $mail->setFrom('admin@pulaukuy360.site', 'Pulau Kuy');
             $mail->addAddress($email, '');
           
             $mail->isHTML(true);
